@@ -1,0 +1,65 @@
+{
+    "selectwelldropdown": "//div[@class='system-rail-container']//span[contains(@class,'k-dropdown-wrap ')]",
+    "WellConfigPage": {
+        "configurationTab": "//div[text()='Configuration']",
+        "wellconfigurationTab": "//div[text()='Well Configuration']",
+        "general": "//div[text()=' General ']",
+        "wellnameinput": "wellName",
+        "welltypedropdwn": "wellType",
+        "welltypename": "//li[text()='RRL']",
+        "welltypefetchtextfield": "//kendo-dropdownlist[@id='wellType']//span[@class='k-input']",
+        "scadatypedrpdwn": "scadaType",
+        "scadatypename": "//li[text()='CygNet']",
+        "scadatypefetchtextfield": "//kendo-dropdownlist[@id='scadaType']//span[@class='k-input']",
+        "cygnetdomaindrpdwn": "cygNetDomain",
+        "cygnetdomainname": "//li[text()='9077']",
+        "cygnetdomainfetchtextfield": "//kendo-dropdownlist[@id='cygNetDomain']//span[@class='k-input']",
+        "createnewwellbutton": "//button[@name='createNewWellButton']",
+        "cygnetservicedrpdwn": "//span[text()='Select service...']",
+        "cygnetservicename": "//li[contains(text(),'UIS']",
+        "cygnetservicefetchtextfield": "//kendo-dropdownlist[@id='siteService']//span[@class='k-input']",
+        "facilitybutton": "//input[@id='facilityId']/following-sibling::button",
+        "facilityfetchtextfield": "facilityId",
+        "applybutton": "//button[text()=' Apply ']",
+        "commissioninput": "//kendo-datepicker//input",
+        "wellboreinput": "//kendo-combobox[@id='assembly']//input",
+        "wellborefetchtextfield": "assemblyAPI",
+        "boreholeinput": "//kendo-combobox[@id='subassembly']//input",
+        "boreholefetchtextfield": "subAssemblyAPI",
+        "intervalinput": "//input[@id='intervalAPI']",
+        "welldepthreference": "wellDepthDatum",
+        "welldepthreferencefetchtextfield": "//kendo-dropdownlist[@id='wellDepthDatum']//span[@class='k-input']",
+        "depthelevation": "//kendo-numerictextbox[@id='datumElevation']//input",
+        "groundelevation": "//kendo-numerictextbox[@id='datumGroundElevation']//input",
+        "wellstatusdrpdwn": "wellStatus",
+        "wellstatusfetchtextfield": "//kendo-dropdownlist[@id='wellStatus']//span[@class='k-input']",
+        "wellattributetab": "//div[text()=' Well Attributes ']",
+        "leasename": "//kendo-combobox[@name='lease']//input",
+        "fieldname": "//kendo-combobox[@name='field']//input",
+        "engineername": "//kendo-combobox[@name='engineer']//input",
+        "regionname": "//kendo-combobox[@name='geographicRegion']//input",
+        "foremanname": "//kendo-combobox[@name='foreman']//input",
+        "gaugername": "//kendo-combobox[@name='gaugerBeat']//input",
+        "savebutton": "//span[text()='Save']"
+    },
+    "NetworkConfigPage": {
+        "networkconfigurationtab": "//div[text()='Network Configuration']"
+    },
+    "LoginPage": {
+        "frmMain": "//iframe[@id='gsft_main']",
+        "txtUserName": "//*[@id='user_name']",
+        "txtPassword": "//*[@id='user_password']",
+        "btnLogin": "//*[@id='sysverb_login']"
+    },
+    "HomePage": {
+        "lnkUserInterface": "//h2[contains(text(),'User Interface')]",
+        "lnkIncidents": "//div[text()='Incidents']",
+        "btnNew": "//button[@id='sysverb_new']",
+        "txtIncNum": "//input[@id='incident.number']",
+        "txtShortDescription": "//input[@id='incident.short_description']",
+        "txtLongDescription": "//textarea[@id='incident.comments']",
+        "btnSubmit": "(//button[@id='sysverb_insert'])[1]",
+        "btnDynamicLinktext": "//a[text()='$$$']"
+        
+    }
+}
