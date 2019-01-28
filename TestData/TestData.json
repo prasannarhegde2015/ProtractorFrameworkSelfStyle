@@ -8,6 +8,7 @@
     "IncData":
     {
         "inctitle":"Protractor Incident from JSON",
-        "incdesc":"We have define a New Frame work strucuture that will incorpreate text date. This will empower deveopers."
+        "incdesc":"We have define a New Frame work strucuture that will incorpreate text date. This will empower deveopers.",
+        "incstate":"In Progress"
     }
 }

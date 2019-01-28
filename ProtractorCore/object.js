@@ -20,6 +20,7 @@ module.exports = {
 	findbyxpath: function (data) {
 		var el = element(by.xpath(data));
 		return el;
+		
 	},
 
 	switchtoframe: function(data)
@@ -54,11 +55,26 @@ module.exports = {
 		return text;
 	},
 	
+	selelctoption :function(data)
+
+	{
+		element(by.cssContainingText('option', data)).click();
+	},
 	 getspantext: function(el, errortext) {
 		var until = protractor.ExpectedConditions;
 		browser.wait(until.elementToBeClickable(el), 5000, errortext);
 		var text = el.getText();
 		return text;
 	},
+	writeScreenShot :function(filename, path) {
+		var fs = require('fs');
+		var stream = fs.createWriteStream(path + filename);
+		browser.takeScreenshot().then(function (png) {
+		stream.write(new Buffer(png, 'base64'));
+		stream.end();
+		});
+		
+	}
+	
 	
 };

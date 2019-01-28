@@ -59,7 +59,13 @@
         "txtShortDescription": "//input[@id='incident.short_description']",
         "txtLongDescription": "//textarea[@id='incident.comments']",
         "btnSubmit": "(//button[@id='sysverb_insert'])[1]",
-        "btnDynamicLinktext": "//a[text()='$$$']"
+        "btnDynamicLinktext": "//a[text()='$$$']",
+        "ddIncState": "//select[@id='incident.state']",
+        "btnupdate":"(//button[@id='sysverb_update'])[1]",
+        "btndelete":"(//button[@id='sysverb_delete'])[1]",
+        "btndeleteConfirmOK":"//button[@id='ok_button']",
+        "spnsysadmin":"//span[text()='System Administrator']",
+        "lnklogout":"//a[text()='Logout']"
         
     }
 }
